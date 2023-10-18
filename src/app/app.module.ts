@@ -5,11 +5,13 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { CarouselComponent } from './carousel/carousel.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
     declarations: [
         AppComponent,
         NavbarComponent,
+        FooterComponent,
         
     ],
     providers: [],
