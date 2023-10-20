@@ -6,12 +6,14 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { CarouselComponent } from './carousel/carousel.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { CategoriasComponent } from './categorias/categorias.component';
+import { AnunciosComponent } from './anuncios/anuncios.component';
 
 @NgModule({
     declarations: [
         AppComponent,
         NavbarComponent,
         CategoriasComponent,
+        AnunciosComponent,
         
     ],
     providers: [],
